@@ -4,8 +4,10 @@
 #else
   #include <M5Stack.h>
 
-namespace CF03 {
 #endif
+
+
+namespace CF03 {
 
 const uint8_t small4pt7bBitmaps[] PROGMEM = {
   0x00, 0xE4, 0xF8, 0x51, 0xF9, 0x42, 0x8F, 0xEA, 0x00, 0x21, 0xF8, 0x1C, 
@@ -143,4 +145,5 @@ const GFXfont small4pt7b PROGMEM = {
   (GFXglyph *)small4pt7bGlyphs, 0x20, 0x7e,   10 };
 
 // Approx. 1056 bytes
+
 } // namespace CF03
