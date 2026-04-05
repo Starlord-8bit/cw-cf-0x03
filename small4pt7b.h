@@ -3,6 +3,8 @@
   #include <gfxfont.h>
 #else
   #include <M5Stack.h>
+
+namespace CF03 {
 #endif
 
 const uint8_t small4pt7bBitmaps[] PROGMEM = {
@@ -141,3 +143,4 @@ const GFXfont small4pt7b PROGMEM = {
   (GFXglyph *)small4pt7bGlyphs, 0x20, 0x7e,   10 };
 
 // Approx. 1056 bytes
+} // namespace CF03
