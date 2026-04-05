@@ -1,6 +1,8 @@
 
 #include "Clockface.h"
 
+namespace CF03 {
+
 const char* FORMAT_TWO_DIGITS = "%02d";
 
 const short BRAZIL_TZ = 32;
@@ -84,3 +86,5 @@ void Clockface::croppedDraw(const unsigned short* image_array, int x, int y, int
     anchor = anchor + (w - cropX);
   }
 }
+
+} // namespace CF03

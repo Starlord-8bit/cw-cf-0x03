@@ -16,6 +16,8 @@
 #include "worldmap.h"
 #include "worldmap_mask.h"
 
+namespace CF03 {
+
 class Clockface: public IClockface {
   private:
     Adafruit_GFX* _display;
@@ -28,3 +30,5 @@ class Clockface: public IClockface {
     void setup(CWDateTime *dateTime);
     void update();
 };
+
+} // namespace CF03
