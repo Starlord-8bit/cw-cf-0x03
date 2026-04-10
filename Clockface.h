@@ -16,6 +16,8 @@
 #include "worldmap.h"
 #include "worldmap_mask.h"
 
+#define CLOCKFACE_NAME "cw-cf-0x03"
+
 namespace CF03 {
 
 class Clockface: public IClockface {
@@ -24,7 +26,7 @@ class Clockface: public IClockface {
     CWDateTime* _dateTime;
     void updateMap();
     void croppedDraw(const unsigned short* image_array, int x, int y, int anchorX, int anchorY, int cropX, int cropY, int w, int h);
-    
+
   public:
     Clockface(Adafruit_GFX* display);
     void setup(CWDateTime *dateTime);
