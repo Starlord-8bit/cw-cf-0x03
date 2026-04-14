@@ -10,7 +10,7 @@
 #include <ImageUtils.h>
 #include <ColorUtil.h>
 
-#include "IClockface.h"
+#include "widgets/clockface/IClockface.h"
 
 #include "small4pt7b.h"
 #include "worldmap.h"
